@@ -31,11 +31,17 @@ public class Calculator {
 				
 				choice = input.nextInt();
 				
-				if(choice == 5)
+			
+			
+			if(choice>0&&choice<6)
 				{
+				
 					
-					    System.out.println("Please Select The Avaliable Choice");
-
+				
+					
+//					    System.out.println("Please Select The Avaliable Choice");
+					    if(choice == 5)
+						{
 						System.out.print("\nThanks for using");
 					    System.exit(0);
 				}
@@ -66,8 +72,14 @@ public class Calculator {
 				{
 					System.out.print("Division: " + Division.division(n1,n2));
 				}
+				
 			}	
-		}
+			
+		
+		else
+		{
+			System.out.println("select from available choice");
+		}}}
 		catch(Exception ex)
 		{
 			
