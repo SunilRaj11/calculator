@@ -34,11 +34,7 @@ public class Calculator {
 			
 			
 			if(choice>0&&choice<6)
-				{
-				
-					
-				
-					
+			{
 //					    System.out.println("Please Select The Avaliable Choice");
 					    if(choice == 5)
 						{
