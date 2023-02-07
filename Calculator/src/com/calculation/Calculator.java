@@ -20,6 +20,7 @@ public class Calculator {
 		
 		try
 		{
+		
 			while(choice != 5 )
 			{
 				System.out.println("\n1 - Addition");
@@ -31,11 +32,11 @@ public class Calculator {
 				
 				choice = input.nextInt();
 				
-			
-			
-			if(choice>0&&choice<6)
+			if(choice>0||choice>6)
 			{
-//					    System.out.println("Please Select The Avaliable Choice");
+//					    System.out.println("Please Select The Available Choice");
+				       
+			}
 					    if(choice == 5)
 						{
 						System.out.print("\nThanks for using");
@@ -69,8 +70,6 @@ public class Calculator {
 					System.out.print("Division: " + Division.division(n1,n2));
 				}
 				
-			}	
-			
 		
 		else
 		{
